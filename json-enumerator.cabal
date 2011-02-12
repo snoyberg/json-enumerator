@@ -1,5 +1,5 @@
 name:            json-enumerator
-version:         0.1.0
+version:         0.0.1
 license:         BSD3
 license-file:    LICENSE
 author:          Michael Snoyman <michaels@suite-sol.com>
@@ -23,7 +23,8 @@ library
                    , blaze-builder             >= 0.2.1.0  && < 0.3
                    , blaze-builder-enumerator  >= 0.2      && < 0.3
                    , transformers              >= 0.2      && < 0.3
-    exposed-modules: Text.JSON.Enumerator, Text.JSON.ToJson
+    exposed-modules: Text.JSON.Enumerator
+                     Text.JSON.ToJson
     ghc-options:     -Wall
 
 source-repository head
